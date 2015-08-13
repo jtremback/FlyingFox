@@ -20,4 +20,5 @@ defmodule Constants do
 	def default_channel_balance do 500_000_000 end
 	def min_channel_spend do 1000 end
 	def creator_pub do "BMYocgxkguE9/5JJcV8enkZNTLNT6NTiDztK60n/hth9YhztV9nENKjr9NSrotm+V0nXMhf6/gyRShAupstxiHo=" end
+	#def creator_pub do "BAT3xlgO51iQJ4VIV6KoqIcBRBp0PuwTbjiTxjQDO6XMBWJ07n2Zqldxnp9k7ZMs9QoOC241kBx3KWLjyXIGAo0=" end
 end

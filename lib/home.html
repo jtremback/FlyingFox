@@ -162,7 +162,7 @@ function unlocked_2() {
 };
 //setTimeout(unlocked, 1000);
 function locked() {
-    if (state !== "locked") { locked_2();} ;
+    if ((state !== "locked" ) &&( state !== "change_password" )) { locked_2();} ;
 }
 function locked_2() {
     state = "locked";

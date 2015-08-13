@@ -6,7 +6,12 @@ FlyingFox
 
 Donations: 1GbpRPE83Vjg73KFvTVZ4EnS2qNkiLY5TT
 
-This is a proof of stake blockchain written in elixir. The goal of this project is a simple smart-contracting blockchain in the truthcoin style http://www.truthcoin.info . FlyingFox lets you write your contract in any language, including  EVM, Spanish, Python, C, Chinese, and English
+The goals of this project:
+Written as erlang OTP package
+This is a proof of stake blockchain using FlyingFox consensus.
+allows betting in any language, including  EVM, Spanish, Python, C, Chinese, and English.
+Uses channels for payments and for betting.
+Can connect channels to bet on things in common, to play a game like poker across a lightening channel connection.
 
 you need to install elixir to run this code http://elixir-lang.org/install.html
 
